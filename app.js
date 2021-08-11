@@ -64,11 +64,11 @@ function check() {
 
         alert("Your total correct is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. Needs Work!")
     } else {
-        if (totalScore > 50 & totalScore < 70) {
+        if (totalScore > 50 && totalScore < 70) {
             alert("Your Score is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. Not Bad! Could use some more google time! ")
         }
         else {
-            if (totalScore > 70 & totalScore<= 100) {
+            if (totalScore >= 70 && totalScore <= 100) {
                 alert("Your Score is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. GREAT JOB!!! ")
             }
             else{
