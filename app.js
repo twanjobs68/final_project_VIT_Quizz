@@ -1,35 +1,65 @@
 
-
+console.log("running app.js")
 function check() {
-
-    var c=0;
+console.log("inside function check")
+    var numCorrect=0;
     //variable for each question
-    var q1=docuement.quiz.question1.value;
-    var q2=docuement.quiz.question2.value;
-    var q3=docuement.quiz.question3.value;
-    var q4=docuement.quiz.question4.value;
-    var q5=docuement.quiz.question5.value;
-    // var q6=docuement.quiz.question6.value;
-    // var q7=docuement.quiz.question7.value;
-    // var q8=docuement.quiz.question8.value;
-    // var q9=docuement.quiz.question9.value;
-    // var q10=docuement.quiz.question10.value;
+    var q1=document.myQuiz.question1.value;
+    var q2=document.myQuiz.question2.value;
+    var q3=document.myQuiz.question3.value;
+    var q4=document.myQuiz.question4.value;
+    var q5=document.myQuiz.question5.value;
+    var q6=document.myQuiz.question6.value;
+    var q7=document.myQuiz.question7.value;
+    var q8=document.myQuiz.question8.value;
+    var q9=document.myQuiz.question9.value;
+    var q10=document.myQuiz.question10.value;
+    var result=document.getElementById('result');
+    var myQuiz = document.getElementById("myQuiz");
 
-    if(q1 == "12:30pm-1pm") {c++}
-    if(q2 == "Salmon") {c++}
-    if(q3 == "7am") {c++}
-    if(q4 == "legumes") {c++}
-    if(q5 == "Spring") {c++}
-    // if(q6 == "Ameythyst") {c++}
-    // if(q7 == "Boss Baby") {c++}
-    // if(q8 == "Venom") {c++}
-    // if(q9 == "Lemons") {c++}
-    // if(q10 == "Niagara Falls") {c++}
-    
-        
-        
-        document.write(c);
+
+    if(q1 == "12:30pm-1pm") {
+        c++;
     }
-    console.log("Hello")
+    if(q2 == "Salmon") {
+        c++;
+    }
+    if(q3 == "7am") {
+        c++;
+    }
+    if(q4 == "legumes") {
+        c++;
+    }
+    if(q5 == "Spring") {
+        c++;
+    }
+     if(q6 == "Ameythyst") {
+         c++;
+     }
+     if(q7 == "Boss Baby") {
+         c++;
+     }
+     if(q8 == "Venom") {
+         c++;
+     }
+     if(q9 == "Lemons") {
+         c++;
+     }
+     if(q10 == "Niagara Falls") {
+         c++;
+     }
+        myQuiz.style.dispaly="none";
+        
+       if(c < 5){
+           alert("Please Google More! " + c)
+       } else{
+           alert("Not Bad at All!!" + c)
+        }      
+        console.log(c);
+     
+      
+    }
+
+    
 
 
