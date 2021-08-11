@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz1</title>
     <link rel="stylesheet" href="style.css">
-    <script>app.js</script>
+    <script>  src="app.js"</script>
 </head>
 <body>
   <!-- 0.Heading for Quiz -->
@@ -23,7 +23,7 @@
     
    
     
-    <form name="quiz" id="quiz1">
+    <form name="quiz" id="quiz">
       <div>
         <div id="q1">
             <p>1. What is the recommended(FDA) time to eat lunch? (1pt)</p>
@@ -124,22 +124,22 @@
             <p><input type="radio" name="question10" value="Shoshone Falls">C. Shoshone Falls</p>
             <p><input type="radio" name="question10" value="yellow Park Waterfall">D. Yellow Park Waterfall</p>
             <p><input type="radio" name="question10" value="McWay Falls">E. McWay Falls</p>
-        </div>
+        </div> 
       </div>
         <!--9. when user clicks on finish, keep selections selected, update grade box, maybe display all done,-->
     <!--Restart button shoudl clear slected answers and gradebox and reset timer to 3 minutes(180 seconds)-->
         <div id="submit">
-            <button id="submit" >'Submit'</button>   
+            <input "button" name"" value="submit" id="button" onclick="check()">   
         </div>
 
         <div class="restart">
-           <button name="restart" >RESTART'</button>    
+           <button name="restart" >RESTART</button>    
         </div>
     
              <!--8. Use Javascript to add functionality for selecting and identifying correct answer, updating grade box, decrementing timer.
     and for marking when user is complete.  When completed, disply message done.-->
         <div id="results">
-          <strong><u>Final Grade</u></strong>(10pt total)
+          <p><strong><u>Final Grade</u></strong>(10pt total)</p>
                   <!-- alert (" you have ---- number correct") -->
         </div>
 
