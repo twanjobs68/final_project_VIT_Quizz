@@ -13,6 +13,12 @@
 
     <h1> No nonsense aptitude quiz</h1>
     <br>
+  
+    <div id="instructions">
+        <a href="/quiz1/welcome.html"><p><strong><u>INSTRUCTIONS</u></strong></p></a>
+                
+      </div>
+
         <br>
     <!--1. -Create Form with questions for quiz and radio type buttons--Done-->
     <!--2. Create divs for heading, grade box, timer and each question--Done-->
@@ -97,7 +103,7 @@
         </div>
         <br>
         <div id="q8">
-            <p>8.Name the movie where the super hero gets powers after becoming<br> host of an alien symbiote whole plans to invade Earth?(NetFlix) (1pt)</p>
+            <p>8.Name the movie where the super hero gets powers after becoming<br> host of an alien symbiote who plans to invade Earth?(NetFlix) (1pt)</p>
             <!-- allow user to select an anser from list -->
             <p><input type="radio" name="question8" value="Men In Black">A. Men In Black</p>
             <p><input type="radio" name="question8" value="The Thing">B. The Thing</p>
@@ -132,7 +138,9 @@
             <input  type="button" value="submit" id="button" onclick="check()">   
         </div>
 
-        <!-- <div class="restart">
+    </form>
+    
+    <!-- <div class="restart">
            <button name="restart" >RESTART</button>    
         </div> -->
     
@@ -144,12 +152,5 @@
         <!-- <div id="atimer"> -->
             <!-- Timer -->
         <!-- </div> -->
-
-    </form>
-    <div id="result">
-        <p><strong><u>Final Grade</u></strong>(10pt Max)</p>
-                <!-- alert (" you have ---- number correct") -->
-      </div>
-    
 </body>
 </html>

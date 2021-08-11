@@ -1,7 +1,7 @@
 
-console.log("running app.js")
+// console.log("running app.js")
 function check() {
-    console.log("inside function check")
+    // console.log("inside function check")
     var numCorrect = 0;
     //variable for each question
     var q1 = document.myQuiz.question1.value;
@@ -52,7 +52,7 @@ function check() {
     /*reset all buttons for next quiz by selected element by id and style set to none.*/
     myQuiz.style.dispaly = "none";
 
-    console.log(numCorrect);
+    // console.log(numCorrect);
 
     //assign variables to calculate score and percentage
     /*convert score to decimal*/
@@ -64,12 +64,16 @@ function check() {
 
         alert("Your total correct is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. Needs Work!")
     } else {
-        if (totalScore > 50 && totalScore < 70) {
+        if (totalScore > 50 & totalScore < 70) {
             alert("Your Score is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. Not Bad! Could use some more google time! ")
         }
         else {
-            if (totalScore > 70) {
-                alert("Your Score is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. GREAT JOB! ")
+            if (totalScore > 70 & totalScore<= 100) {
+                alert("Your Score is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. GREAT JOB!!! ")
+            }
+            else{
+                alert("Error! Not a recognized grade!"  + numCorrect + "- Grade percentage= " + totalScore + "%")
+
             }
         } 
 

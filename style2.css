@@ -1,0 +1,59 @@
+body{
+    
+    background: linear-gradient(217deg, rgba(212, 0, 255, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(17, 17, 16, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg,gold, rgba(255, 0, 0, 0) 70.71%);
+    font-weight: bolder;
+    color:black;
+    font-size: 25px;
+}
+
+h1{
+    /* display:flex; */
+    font-weight:800;
+    margin-left:33%;
+    font-size: x-large;
+    text-transform:uppercase;
+    /* text-align:center; */
+    text-decoration: underline 5px solid black;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    width:fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.letsGo{
+    margin-left: 50%;
+    border: 10px solid gold;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    height: 165px;
+    width: 200px;
+    display:flex;
+    font-weight:800;
+    margin-left:40%;
+    font-size: x-large;
+    text-transform:uppercase;
+    text-align:center;
+    text-decoration: underline 5px solid black;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    
+    width:fit-content;
+    justify-content: center;
+    align-items: center; 
+}
+p{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10%;
+}
+
+
+
+

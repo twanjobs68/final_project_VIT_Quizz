@@ -1,3 +1,14 @@
+ 
+#instructions{  
+    border: 4px goldenrod solid;
+    height: 60px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    background-color: goldenrod;
+ } 
+
 body{
     margin: 1.5em;
     background: linear-gradient(217deg, rgba(212, 0, 255, 0.8), rgba(255,0,0,0) 70.71%),
@@ -8,17 +19,7 @@ body{
     font-size: 25px;
     
 }
-/* #quiz1{
 
-    border: 2px solid purple;
-    width: 1000px
-} */
-/* #results{  
-   
-   border: 2px goldenrod dashed;
-   height: 80px;
-   width: 255px;
-} */
 #button{
     
     background-color: goldenrod;
