@@ -14,55 +14,64 @@ function check() {
     var q8 = document.myQuiz.question8.value;
     var q9 = document.myQuiz.question9.value;
     var q10 = document.myQuiz.question10.value;
+
     var result = document.getElementById('result');
     var myQuiz = document.getElementById("myQuiz");
 
-
+  //accumulate correct answer total
     if (q1 == "12:30pm-1pm") {
-        numCorrect;
+        numCorrect++;
     }
     if (q2 == "Salmon") {
-        numCorrect;
+        numCorrect++;
     }
     if (q3 == "7am") {
-        numCorrect;
+        numCorrect++;
     }
     if (q4 == "legumes") {
-        numCorrect;
+        numCorrect++;
     }
     if (q5 == "Spring") {
-        numCorrect;
+        numCorrect++;
     }
     if (q6 == "Ameythyst") {
-        numCorrect;
+        numCorrect++;
     }
     if (q7 == "Boss Baby") {
-        numCorrect;
+        numCorrect++;
     }
     if (q8 == "Venom") {
-        numCorrect;
+        numCorrect++;
     }
     if (q9 == "Lemons") {
-        numCorrect;
+        numCorrect++;
     }
     if (q10 == "Niagara Falls") {
-        numCorrect;
+        numCorrect++;
     }
+    /*reset all buttons for next quiz by selected element by id and style set to none.*/
     myQuiz.style.dispaly = "none";
 
-    let totalScore = 100 * numCorrect;
+    console.log(numCorrect);
+
+    //assign variables to calculate score and percentage
+    /*convert score to decimal*/
+    let score=numCorrect * .1;
+    /*convert score to percentage*/
+    let totalScore = 100 * score;
+    //validate percentage and scores and display modal with message and scores
     if (totalScore <= 50) {
 
-        alert("Needs Work! Please Google More! Your total correct is " + numCorrect + " out of 10, for a Score of " + totalScore + "%")
+        alert("Your total correct is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. Needs Work!")
     } else {
         if (totalScore > 50 && totalScore < 70) {
-            alert("Not Bad! Could use some more google time! Your Score is " + numCorrect + " out of 10, for a Score of " + totalScore + "%")
+            alert("Your Score is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. Not Bad! Could use some more google time! ")
         }
         else {
             if (totalScore > 70) {
-                alert("GREAT JOB! Your Score is " + numCorrect + " out of 10, for a Score of " + totalScore + "%")
+                alert("Your Score is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. GREAT JOB! ")
             }
-        } console.log(numCorrect);
+        } 
 
     }
 }
