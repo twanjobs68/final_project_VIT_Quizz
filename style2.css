@@ -1,10 +1,10 @@
 body{
     
-    background: linear-gradient(217deg, rgba(212, 0, 255, 0.8), rgba(255,0,0,0) 70.71%),
+    background: linear-gradient(217deg, rgba(171, 96, 186, 0.8), rgba(255,0,0,0) 70.71%),
             linear-gradient(127deg, rgba(17, 17, 16, 0.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg,gold, rgba(255, 0, 0, 0) 70.71%);
+            linear-gradient(336deg,rgb(243, 209, 14), rgba(255, 11, 0, 0) 70.71%);
     font-weight: bolder;
-    color:black;
+    color:rgb(17, 4, 4);
     font-size: 25px;
 }
 
@@ -26,7 +26,9 @@ h1{
 .header1{
     border-radius:10px;
 }
-
+ul{
+    list-style:none;
+}
 .letsGo{
     margin-left: 50%;
     border: 10px solid gold;
@@ -57,6 +59,19 @@ p{
     margin-top: 10%;
 }
 
+.container{
+
+    background-color: linear-gradient(45deg purple,white,gold,white,purple);
+}
+.shoutout{
+    
+    border:9px dashed gold;
+    margin-left: 25%;
+    height: 600px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
 
 
 

@@ -62,13 +62,13 @@ function check() {
     //validate percentage and scores and display modal with message and scores
     if (totalScore <= 50) {
 
-        alert("Your total correct is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. Needs Work!")
+        alert("You answered  " + numCorrect + " out of 10 correctly. Score = " + totalScore + "%. Work on that knowledge!")
     }
     else if (totalScore > 50 && totalScore < 70) {
-        alert("Your Score is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. Not Bad! Could use some more google time! ")
+        alert("You answered " + numCorrect + " out of 10 Correctly! Score =  " + totalScore + "%. Not Bad! Could use some more Google time! ")
     }
     else if (totalScore >= 70 && totalScore <= 100) {
-        alert("Your Score is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. GREAT JOB!!! ")
+        alert("You answered " + numCorrect + " out of 10 correctly. Score = " + totalScore + "%. GREAT JOB!!! ")
     }
     else {
         alert("Error! Not a recognized grade!" + numCorrect + "- Grade percentage= " + totalScore + "%")

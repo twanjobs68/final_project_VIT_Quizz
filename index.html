@@ -15,7 +15,7 @@
     <br>
   
     <div id="instructions">
-        <a href="/quiz1/welcome.html"><p><strong><u>INSTRUCTIONS</u></strong></p></a>
+        <a href="/quiz1/welcome.html"><p><strong><u>HOME/DIRECTIONS</u></strong></p></a>
                 
       </div>
 
@@ -133,16 +133,17 @@
         </div> 
       </div>
         <!--9. when user clicks on finish/submit, keep selections selected, update grade box, display modal woth number correct and percentage-->
-    <!--Restart button shoudl clear slected answers and gradebox and reset timer to 3 minutes(180 seconds)-->
+    <!--Restart button should clear selected answers and gradebox and reset timer to 3 minutes(180 seconds)-->
         <div id="submit">
-            <input  type="button" value="submit" id="button" onclick="check()">   
+            <input  type="button" value="DONE" id="button" onclick="check()">   
         </div>
-
+        <div class="restart">
+            <a href="/quiz1/index.html">  <button name="restart" >RESTART</button> </a>   
+           </div> 
+       </form>
     </form>
     <!-- stretch call of restart button and timer.  Currently screen clears upon reload -->
-    <!-- <div class="restart">
-           <button name="restart" >RESTART</button>    
-        </div> -->
+    
     
              <!--8. Use Javascript to add functionality for selecting and identifying correct answer, updating grade box, decrementing timer.
     and for marking when user is complete.  When completed, disply message done.-->

@@ -1,22 +1,25 @@
  
 #instructions{  
-    border: 4px goldenrod solid;
+    border: 4px rgb(235, 231, 222) solid;
     height: 60px;
-    width: 200px;
+    width: 250px;
     align-items: center;
     text-align: center;
     justify-content:center;
     background-color: goldenrod;
     border-radius:10px;
  } 
+ #instructions:hover{
+     background-color: lavender;
+ }
 
 body{
     margin: 1.5em;
-    background: linear-gradient(217deg, rgba(132, 78, 143, 0.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(17, 17, 16, 0.8), rgba(214, 223, 214, 0) 70.71%),
-            linear-gradient(336deg,rgb(179, 164, 79), rgba(168, 27, 44, 0) 70.71%);
+    background: linear-gradient(217deg, rgba(162, 89, 177, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(56, 56, 54, 0.8), rgba(214, 223, 214, 0) 70.71%),
+            linear-gradient(336deg,rgb(220, 199, 81), rgba(168, 27, 44, 0) 70.71%);
     font-weight: bolder;
-    color:white;
+    color:rgb(70, 54, 54);
     font-size: 25px;
     
 }
@@ -25,7 +28,7 @@ body{
     
     background-color: goldenrod;
     color:purple;
-    font-size: 18px;;
+    font-size: 18px;
     font-weight: bolder;
     justify-content: center;
     align-items: center;
@@ -33,6 +36,9 @@ body{
     text-transform: uppercase;
     border-radius: 10px;
 
+}
+#button:hover{
+    background-color: white;
 }
 
 h1{
@@ -69,12 +75,12 @@ button{
 }
 
 button:hover{
-    background-color: red;
+    background-color:white;
 }
 
 #restart{
 
-    border: 3px solid black;
+    border: 3px solid red;
     height:35px;
     width: 185px;
     justify-content: center;
@@ -90,7 +96,10 @@ button:hover{
     background-color: green;
 }
 
-
+/* input{
+    type=radio;
+    transform:scale(1.5);
+} */
 
 .gradeBox{
     display:flex;
