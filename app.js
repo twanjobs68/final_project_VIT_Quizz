@@ -18,7 +18,7 @@ function check() {
     var result = document.getElementById('result');
     var myQuiz = document.getElementById("myQuiz");
 
-  //accumulate correct answer total
+    //accumulate correct answer total
     if (q1 == "12:30pm-1pm") {
         numCorrect++;
     }
@@ -28,13 +28,13 @@ function check() {
     if (q3 == "7am") {
         numCorrect++;
     }
-    if (q4 == "legumes") {
+    if (q4 == "Legumes") {
         numCorrect++;
     }
     if (q5 == "Spring") {
         numCorrect++;
     }
-    if (q6 == "Ameythyst") {
+    if (q6 == "Amethyst") {
         numCorrect++;
     }
     if (q7 == "Boss Baby") {
@@ -56,29 +56,27 @@ function check() {
 
     //assign variables to calculate score and percentage
     /*convert score to decimal*/
-    let score=numCorrect * .1;
+    let score = numCorrect * .1;
     /*convert score to percentage*/
-    let totalScore = 100 * score;
+    let totalScore =Math.floor( 100 * score)
     //validate percentage and scores and display modal with message and scores
     if (totalScore <= 50) {
 
         alert("Your total correct is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. Needs Work!")
-    } else {
-        if (totalScore > 50 && totalScore < 70) {
-            alert("Your Score is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. Not Bad! Could use some more google time! ")
-        }
-        else {
-            if (totalScore >= 70 && totalScore <= 100) {
-                alert("Your Score is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. GREAT JOB!!! ")
-            }
-            else{
-                alert("Error! Not a recognized grade!"  + numCorrect + "- Grade percentage= " + totalScore + "%")
-
-            }
-        } 
+    }
+    else if (totalScore > 50 && totalScore < 70) {
+        alert("Your Score is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. Not Bad! Could use some more google time! ")
+    }
+    else if (totalScore >= 70 && totalScore <= 100) {
+        alert("Your Score is " + numCorrect + " out of 10, for a Score of " + totalScore + "%. GREAT JOB!!! ")
+    }
+    else {
+        alert("Error! Not a recognized grade!" + numCorrect + "- Grade percentage= " + totalScore + "%")
 
     }
+
 }
+
 
 
 

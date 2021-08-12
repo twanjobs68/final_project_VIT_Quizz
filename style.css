@@ -7,15 +7,16 @@
     text-align: center;
     justify-content:center;
     background-color: goldenrod;
+    border-radius:10px;
  } 
 
 body{
     margin: 1.5em;
-    background: linear-gradient(217deg, rgba(212, 0, 255, 0.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(17, 17, 16, 0.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg,gold, rgba(168, 27, 44, 0) 70.71%);
+    background: linear-gradient(217deg, rgba(132, 78, 143, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(17, 17, 16, 0.8), rgba(214, 223, 214, 0) 70.71%),
+            linear-gradient(336deg,rgb(179, 164, 79), rgba(168, 27, 44, 0) 70.71%);
     font-weight: bolder;
-    color:black;
+    color:white;
     font-size: 25px;
     
 }
@@ -30,6 +31,7 @@ body{
     align-items: center;
     text-align: center;
     text-transform: uppercase;
+    border-radius: 10px;
 
 }
 
@@ -48,6 +50,7 @@ h1{
     width:fit-content;
     justify-content: center;
     align-items: center;
+    border-radius:10px;
 }
 
 
@@ -62,6 +65,7 @@ button{
     font-weight: 900;
     font-size: large;
     margin-left:50%;
+    border-radius:10px;
 }
 
 button:hover{
@@ -79,6 +83,7 @@ button:hover{
     font-weight: 900;
     font-size: large;
     margin-left:50%;
+    border-radius:10px;
 }
 
 #restart:hover{
@@ -101,6 +106,7 @@ button:hover{
     border-radius: 10%;
     margin-top: -220%;
     margin-left: 75%;
+    border-radius: 10px
     
 }
 /* stretch goal if time permits */
@@ -109,4 +115,5 @@ button:hover{
     border: 5px solid black;
     height: 40px;
     width: 55px;
+    border-radius:10px;
 }
